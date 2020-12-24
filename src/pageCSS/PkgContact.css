@@ -1,0 +1,63 @@
+.pkg-contact{
+    padding: 50px 20px;
+    margin: 0 10px;
+    box-shadow: 2px 4px 7px rgba(0, 0, 0, .2);
+}
+
+.pkg-contact .pkgCon-head{
+    margin: 30px 0;
+}
+
+.pkg-contact .pkgCon-head h1{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.pkg-contact .pkgCon-head p{
+    font-size: 17px;
+    opacity: .6;
+}
+
+.pkg-contact .main-pkgCon form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.pkg-contact .main-pkgCon form label{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.pkg-contact .main-pkgCon form input{
+    padding: 10px 0;
+    border: 1px solid rgba(0, 0, 0, .2);
+    outline: none;
+}
+
+.pkg-contact .main-pkgCon .button{
+    background-color: rgb(31, 177, 31);
+    color: #fff;
+    padding: 20px 50px;
+    font-size: 25px;
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
+    transition: color, background-color .3s ease;
+}
+
+.pkg-contact .main-pkgCon .button:hover{
+    border: 2px solid rgb(31, 177, 31);
+    color: rgb(31, 177, 31);
+    background-color: #fff;
+}
+
+.pkg-contact .main-pkgCon .button i{
+    position: relative;
+    top: -4px;
+    left: 5px;
+}
+
+

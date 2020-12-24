@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+:root{
+  --font-color: rgb(9, 172, 248);
+  --box-shadow: 10px 8px 14px rgba(0, 0, 0, .3);
+  --font-size: 20px;
+  --swiper-navigation-size: 15px;
+  --font-family: 'Roboto Condensed', sans-serif;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  color: #000;
+  text-decoration: none;
+}

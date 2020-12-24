@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+.main-pkg{
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.main-pkg .main-head{
+    margin: 100px 0;
+    text-align: center;
+}
+
+.main-pkg .main-head h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.main-pkg .main-head p{
+    font-size: 17px;
+    margin: 0 150px;
+}
+
+.main-pkg .primary-pkg{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 20px;
+    justify-items: center;
+    margin: 0 30px;
+}
+
+.main-pkg .primary-pkg .pkg-card img{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    transform: scale(1);
+    transition: transform .2s ease-in;
+}
+
+.main-pkg .primary-pkg .pkg-card{
+    position: relative;
+    overflow: hidden;
+}
+
+.main-pkg .primary-pkg .pkg-card:hover img{
+    transform: scale(1.2);
+    border-radius: 10px;
+}
+
+.main-pkg .primary-pkg .pkg-card:hover .pkg-head{
+    border-radius: 5px;
+}
+
+.main-pkg .primary-pkg .pkg-card .pkg-head{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+    background-color: rgba(0, 0, 0, .4);
+    border-bottom: 5px solid var(--font-color);
+    border-radius: 10px;
+}
+
+.main-pkg .primary-pkg .pkg-card .pkg-head div{
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+}
+
+.main-pkg .primary-pkg .pkg-card .pkg-head h1{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.main-pkg .secondary-pkg{
+    display: grid;
+    justify-items: center;
+    margin: 100px 250px;
+    text-align: center;
+}
+
+.main-pkg .secondary-pkg h1{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.main-pkg .secondary-pkg .button{
+    background-color: var(--font-color);
+    color: #fff;
+    padding: 20px 50px;
+    margin-top: 50px;
+    font-size: 25px;
+    transition: all .3s ease;
+}
+
+.main-pkg .secondary-pkg .button i{
+    display: none;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.main-pkg .secondary-pkg .button:hover i{
+    display: inline-block;
+    animation: fadeIn 250ms ease-in-out both;
+}
