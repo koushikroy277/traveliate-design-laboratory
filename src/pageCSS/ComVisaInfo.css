@@ -1,0 +1,77 @@
+.com-visa{
+    margin: 50px;
+    padding-bottom: 50px;
+    font-family: var(--font-family);
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, .3),
+                -5px 0px 15px rgba(0, 0, 0, .3);
+}
+
+.com-visa .aus-banner{
+    color: #fff;
+    position: relative;
+}
+
+.com-visa .aus-banner h1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: -10px;
+    background-color: rgba(0, 0, 0, .1);
+    padding: 60px 50px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.com-visa .com-visa-info{
+    margin: 30px;
+}
+
+.com-visa .com-visa-info .com-visa-head{
+    margin-bottom: 30px;
+    opacity: .7;
+}
+
+.accordion .card{
+    border: none;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.accordion .card .card-header{
+    background-color: rgb(248, 245, 217);
+}
+
+.accordion .card .card-header .icon{
+    position: absolute;
+    right: 20px;
+    transform: rotate(0);
+    transition: transform .3s ease;
+}
+
+.accordion .card .card-header .down-icon{
+    position: absolute;
+    right: 20px;
+    transform: rotate(90deg);
+    transition: transform .3s ease;
+}
+
+.accordion .card .collapse .card-body{
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+ol li{
+    list-style-type: inherit;
+}
+
+@media only screen and (max-width: 700px){
+    .com-visa{
+        margin: 50px 10px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .com-visa{
+        margin: 50px 0;
+    }
+}
