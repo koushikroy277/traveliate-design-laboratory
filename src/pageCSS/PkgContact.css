@@ -1,7 +1,10 @@
-.pkg-contact{
-    padding: 50px 20px;
-    margin: 0 10px;
-    box-shadow: 2px 4px 7px rgba(0, 0, 0, .2);
+.mainCon{
+    box-shadow: 2px 5px 7px rgba(0, 0, 0, .2);
+    padding: 10px 15px;
+}
+
+.pkg-contact .main-pkgCon{
+    margin-bottom: 50px;
 }
 
 .pkg-contact .pkgCon-head{
@@ -22,8 +25,7 @@
 .pkg-contact .main-pkgCon form{
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
-    margin-bottom: 100px;
+    margin: 50px 0;
 }
 
 .pkg-contact .main-pkgCon form label{

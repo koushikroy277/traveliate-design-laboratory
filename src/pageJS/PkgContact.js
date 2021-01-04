@@ -6,6 +6,7 @@ import '../pageCSS/PkgContact.css';
 export default function PkgContact() {
     return (
         <>
+        <section className="mainCon">
             <section className="pkg-contact">
                 <div className="pkgCon-head">
                     <h1>Contact Us Now</h1>
@@ -33,6 +34,7 @@ export default function PkgContact() {
                     </Link>
                 </section>
             </section>
+        </section>
         </>
     )
 }

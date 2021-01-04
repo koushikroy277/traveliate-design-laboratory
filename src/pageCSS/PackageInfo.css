@@ -36,9 +36,13 @@
     padding-right: 300px;
 }
 
-.pkg-second{
+.mainPkg{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.mainPkg .pkg-second{
+    grid-column: 1/3;
 }
 
 .pkg-second .pkg-data{
@@ -50,21 +54,16 @@
 }
 
 .pkg-second .pkg-data .pkg-drop{
-    border: 1px solid rgba(0, 0, 0, .15);
-    margin: 50px 20px;
-    padding: 40px 30px;
+    padding: 10px 20px;
     position: relative;
-    box-shadow: 2px 3px 5px rgba(0, 0, 0, .2);
 }
 
 .pkg-second .pkg-data .pkg-drop .pkg-item{
     color: #000;
     font-size: var(--font-size);
     margin-top: 10px;
-    padding: 6px 0;
     cursor: pointer;
     transition: all .3s ease;
-    border-bottom: 1px solid rgba(0, 0, 0, .1);
     position: relative;
     display: flex;
 }
@@ -93,14 +92,15 @@
 .pkg-second .pkg-data .pkg-drop .pkg-item::before{
     content: "";
     display: block;
-    width: 70px;
+    width: 80px;
     height: 2px;
     background-color: var(--font-color);
     transform: rotate(90deg);
     position: absolute;
-    top: 24px;
-    left: 37px;
+    top: 20px;
+    left: 33px;
 }
+
 
 .pkg-second .pkg-data .pkg-drop .pkg-item a i{
     position: absolute;
@@ -115,13 +115,13 @@
 .drop-item::before{
     content: "";
     display: block;
-    width: 330px;
+    width: 340px;
     height: 2px;
     background-color: var(--font-color);
     transform: rotate(90deg);
     position: absolute;
     top: 130px;
-    left: -193px;
+    left: -197px;
 }
 
 .drop-item p{
@@ -165,12 +165,39 @@
     transition: transform .2s ease-in;
 }
 
+.pkg-colHead{
+    background-color: #fff;
+    border-bottom: none;
+}
+
+.secondary-head{
+    margin: 50px 30px;
+}
+
+.pkg-include{
+    margin: 30px;
+}
+
+.pkg-include .pkg-data .later-dropdown .item-later::before{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 2px;
+    background-color: var(--font-color);
+    transform: rotate(90deg);
+    position: absolute;
+    top: 15px;
+    left: 3px;
+}
+
+
 .item-later a i{
     position: absolute;
     right: 0;
-    top: 8px;
 }
 
 .item-later span{
-    margin-left: 73px;
+    margin-left: 54px;
 }
+
+                            

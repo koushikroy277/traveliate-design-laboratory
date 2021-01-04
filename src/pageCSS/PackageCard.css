@@ -21,7 +21,7 @@
 
 .main-pkg .primary-pkg{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 20px;
     justify-items: center;
     margin: 0 30px;
@@ -92,19 +92,33 @@
     padding: 20px 50px;
     margin-top: 50px;
     font-size: 25px;
-    transition: all .3s ease;
+    transition: color, background-color .3s ease;
 }
 
 .main-pkg .secondary-pkg .button i{
-    display: none;
+    position: relative;
+    top: -5px;
+    left: 5px;
 }
 
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
+.main-pkg .secondary-pkg .button:hover{
+    color: var(--font-color);
+    border: 2px solid var(--font-color);
+    border-radius: 5px;
+    background-color: #fff;
 }
 
-.main-pkg .secondary-pkg .button:hover i{
-    display: inline-block;
-    animation: fadeIn 250ms ease-in-out both;
+@media only screen and (max-width: 900px){
+    .main-pkg .main-head p{
+        margin: 0 50px;
+    }
+    .main-pkg .secondary-pkg{
+        margin: 100px 50px;
+    }
+} 
+
+@media only screen and (max-width: 500px){
+    .main-pkg .main-head p{
+        display: none;
+    }
 }

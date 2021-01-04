@@ -60,14 +60,14 @@ export default function VisaInfo(props) {
                             </ol>
                         </section>
                         <section className="com-stud-sect">
-                        <Accordion>
-                        <Card onClick={down}>
-                            <Accordion.Toggle as={Card.Header} eventKey="0">
+                        <Accordion className="Accordion">
+                        <Card onClick={down} className="Card">
+                            <Accordion.Toggle as={Card.Header} eventKey="0" className="CardHeader">
                             For Students
                             <i><FaAngleRight className={iconOpen ? 'down-icon': 'icon'}/></i>
                             </Accordion.Toggle>
-                            <Accordion.Collapse eventKey="0">
-                            <Card.Body>
+                            <Accordion.Collapse eventKey="0" className="CardCollapse">
+                            <Card.Body className="CardBody">
                                 <ol>
                                     <li>School ID photocopy.</li>
                                     <li>NOC from school.</li>
@@ -78,13 +78,13 @@ export default function VisaInfo(props) {
                             </Card.Body>
                             </Accordion.Collapse>
                         </Card>
-                        <Card onClick={down2}>
-                            <Accordion.Toggle as={Card.Header} eventKey="1">
+                        <Card onClick={down2} className="Card">
+                            <Accordion.Toggle as={Card.Header} eventKey="1" className="CardHeader">
                             For Job Holders
                             <i><FaAngleRight className={iconOpen2 ? 'down-icon': 'icon'}/></i>
                             </Accordion.Toggle>
-                            <Accordion.Collapse eventKey="1">
-                            <Card.Body>
+                            <Accordion.Collapse eventKey="1" className="CardCollapse">
+                            <Card.Body className="CardBody">
                                 <ol>
                                     <li>NOC / Forwarding Letter.</li>
                                     <li>Office ID card copy.</li>
@@ -94,13 +94,13 @@ export default function VisaInfo(props) {
                             </Card.Body>
                             </Accordion.Collapse>
                         </Card>
-                        <Card onClick={down3}>
-                            <Accordion.Toggle as={Card.Header} eventKey="3">
+                        <Card onClick={down3} className="Card">
+                            <Accordion.Toggle as={Card.Header} eventKey="3" className="CardHeader">
                             Note
                             <i><FaAngleRight className={iconOpen3 ? 'down-icon': 'icon'}/></i>
                             </Accordion.Toggle>
-                            <Accordion.Collapse eventKey="3">
-                            <Card.Body>
+                            <Accordion.Collapse eventKey="3" className="CardCollapse">
+                            <Card.Body className="CardBody">
                                 <ol>
                                     <li>Visa Processing Fee Non-refundable.</li>
                                     <li>Visa rate can be changed without prior notice.</li>
@@ -109,13 +109,13 @@ export default function VisaInfo(props) {
                             </Card.Body>
                             </Accordion.Collapse>
                         </Card>
-                        <Card onClick={down4}>
-                            <Accordion.Toggle as={Card.Header} eventKey="4">
+                        <Card onClick={down4} className="Card">
+                            <Accordion.Toggle as={Card.Header} eventKey="4" className="CardHeader">
                             For Business Person
                             <i><FaAngleRight className={iconOpen4 ? 'down-icon': 'icon'}/></i>
                             </Accordion.Toggle>
-                            <Accordion.Collapse eventKey="4">
-                            <Card.Body>
+                            <Accordion.Collapse eventKey="4" className="CardCollapse">
+                            <Card.Body className="CardBody">
                                 <ol>
                                     <li>Company Bank Statement of Last Six Months (Transaction must be regular).</li>
                                     <li>Blank Page of Office Pad.</li>
@@ -131,7 +131,7 @@ export default function VisaInfo(props) {
                     </section>
                 </section>
             </section>
-            <section className="page-header .visa-comHeader">
+            <section className="page-header visa-comHeader">
                 <h1>Some more visa services</h1>
             </section>
             <section className="visa-slider">

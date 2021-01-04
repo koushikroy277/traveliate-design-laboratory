@@ -32,31 +32,31 @@
     opacity: .7;
 }
 
-.accordion .card{
+.Accordion .Card{
     border: none;
     border-right: 1px solid rgba(0, 0, 0, 0.2);
     border-left: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-.accordion .card .card-header{
+.Accordion .Card .CardHeader{
     background-color: rgb(248, 245, 217);
 }
 
-.accordion .card .card-header .icon{
+.Accordion .Card .CardHeader .icon{
     position: absolute;
     right: 20px;
     transform: rotate(0);
     transition: transform .3s ease;
 }
 
-.accordion .card .card-header .down-icon{
+.Accordion .Card .CardHeader .down-icon{
     position: absolute;
     right: 20px;
     transform: rotate(90deg);
     transition: transform .3s ease;
 }
 
-.accordion .card .collapse .card-body{
+.Accordion .Card .CardCollapse .CardBody{
     border-bottom: 1px solid rgba(0, 0, 0, .1);
 }
 
@@ -64,10 +64,12 @@ ol li{
     list-style-type: inherit;
 }
 
+
 @media only screen and (max-width: 700px){
     .com-visa{
         margin: 50px 10px;
     }
+    
 }
 
 @media only screen and (max-width: 500px){

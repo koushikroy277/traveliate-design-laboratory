@@ -43,13 +43,6 @@ a{
   height: 60vh;
 }
 
-
-@media only screen and (max-width: 700px){
-  .page-header{
-    margin-bottom: 200px;
-  }
-}
-
 @media only screen and (max-width: 500px){
   .aus-banner{
     height: 40vh;

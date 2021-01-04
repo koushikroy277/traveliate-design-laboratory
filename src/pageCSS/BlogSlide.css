@@ -1,0 +1,21 @@
+.blogSwiper{
+    height: 80vh;
+}
+
+.blogSlide {
+    width: 100%;
+    height: 100%;
+}
+
+.blogSwipeSlide {
+    width: 300px;
+    height: 300px;
+    display: block;
+}
+
+.blogSwipeSlide img{
+    width: 300px;
+    height: 300px;
+}
+
+

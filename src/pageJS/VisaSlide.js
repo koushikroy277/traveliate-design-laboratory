@@ -6,7 +6,7 @@ import VisaRender from './VisaRender';
 export default function VisaSlide() {
     return (
         <>
-            <div class="swiper-container">
+            <div class="swiper-container visaSlide">
                 <div class="swiper-wrapper sec-visa">
                     {VisaRender.map((data)=>{
                         const {imgsrc, head, para, url}= data;
@@ -34,7 +34,6 @@ export default function VisaSlide() {
                 </div>
                 <div class="swiper-pagination"></div>
             </div>
-
         </>
     )
 }

@@ -1,0 +1,95 @@
+.blogSocial{
+    box-shadow: var(--box-shadow);
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 100px;
+}
+
+.blogSocial .socialTitle{
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.blogSocial ul{
+    display: flex;
+}
+
+.blogSocial ul li .link{
+    margin-right: 10px;
+}
+
+.blogSocial ul li .link i{
+    font-size: 25px;
+    color: #fff;
+    border-radius: 50%;
+    padding: 8px 10px;
+}
+
+.blogSocial ul li .link .facebook{
+    color: #fff;
+    background-color: blue;
+}
+
+.blogSocial ul li .link .instagram{
+    background-image: radial-gradient(red, orange);
+
+}
+
+.blogSocial ul li .link .whatsapp{
+    background-color: rgb(8, 209, 8);
+
+}
+
+.blogSocial ul li .link .twitter{
+    background-color: deepskyblue;
+
+}
+
+.blogSocial ul li .link .youtube{
+    background-color: rgb(248, 25, 25);
+
+}
+
+.blogMsg{
+    box-shadow: var(--box-shadow);
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.blogMsg .msgSect #msgTitle{
+    font-size: 35px;
+
+}
+
+.blogMsg .msgSect input{
+    margin-top: 30px;
+    padding: 50px 30px;
+    width: 300px;
+    border: 3px solid rgba(0, 0, 0, .2);
+    outline: none;
+    border-radius: 10px;
+}
+
+.blogMsg .msgSect #sub-btn{
+    background-color: coral;
+    color: #fff;
+    opacity: .8;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 10px 30px;
+    width: 250px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    transition: color, background-color .3s ease;
+}
+
+.blogMsg .msgSect #sub-btn:hover{
+    background-color: #fff;
+    border: 2px solid coral;
+    color: coral;
+}
