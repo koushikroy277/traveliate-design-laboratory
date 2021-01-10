@@ -1,5 +1,6 @@
 .blogSwiper{
-    height: 80vh;
+    width: 90%;
+    height: 60vh;
 }
 
 .blogSlide {
@@ -8,14 +9,51 @@
 }
 
 .blogSwipeSlide {
-    width: 300px;
+    width: 500px;
     height: 300px;
     display: block;
 }
 
 .blogSwipeSlide img{
-    width: 300px;
+    width: 100%;
     height: 300px;
 }
 
+.swipeSlideCapt{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #00000067;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px 20px;
+    transition: all .3s ease-in;
+}
 
+.swipeSlideCapt:hover{
+    background-color: rgba(255, 0, 0, 0.85);
+}
+
+.pay{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+
+}
+
+.swipeSlideCapt{
+    display: flex;
+}
+
+@media only screen and (max-width: 500px){ 
+    .blogSwiper{
+        width: 100%;
+    }
+
+    .blogSwipeSlide {
+        width: 400px;
+        height: 300px;
+        display: block;
+    }
+}

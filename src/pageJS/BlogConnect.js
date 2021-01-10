@@ -64,6 +64,62 @@ export default function BlogConnect() {
                     </form>
                 </section>
             </section>
+            <section className="blogConTips">
+                <section className="blogTipList">
+                    <h1>Sweet Travel</h1>
+                    <div className="blog-number">
+                        <span>1</span><div>Explicit tour in the Most Visited Country</div>
+                    </div>
+                    <div className="blog-number">
+                        <span>2</span><div>Taste the most popular and delicious food of different countries</div>
+                    </div>
+                    <div className="blog-number">
+                        <span>3</span><div>Wear the designer and native clothes of their respective countries</div>
+                    </div>
+                    <div className="blog-number">
+                        <span>4</span><div>Know the culture and tradition of foreign countries</div>
+                    </div>
+                    <div className="blog-number">
+                        <span>5</span><div>Buy the most luxuries things that will mesmerize you</div>
+                    </div>
+                </section>
+            </section>
+            <section className="blogPopular">
+                <div className="popTitle">
+                    <h1>
+                        Our Top 10 Packages
+                    </h1> 
+                </div>
+                <div className="blogPopItems">
+                    <div className="popItem">
+                        Top 10 popular places to go before you turn 30
+                    </div>
+                    <div className="popItem">
+                        Top 10 popular places to go during winter vacation
+                    </div>
+                    <div className="popItem">
+                        Top 10 popular places to go with your family
+                    </div>
+                    <div className="popItem">
+                        Top 10 popular places to go with your friends
+                    </div>
+                    <div className="popItem">
+                        Top 10 popular places to go if you are a food lover
+                    </div>
+                    <div className="popItem">
+                        Top 10 popular places to go if you are adventurous
+                    </div>
+                    <div className="popItem">
+                        Top 10 popular places to go if you are nature lover
+                    </div>
+                    <div className="popItem">
+                        Top 10 popular places to go if you are beach lover
+                    </div>
+                    <div className="popItem">
+                        Top 10 popular places to go on your honeymoon
+                    </div>
+                </div>
+            </section>
         </section>
         </>
     );
