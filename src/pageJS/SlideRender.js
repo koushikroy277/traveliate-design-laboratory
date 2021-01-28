@@ -55,7 +55,7 @@ const SlideRender = [{
     },
     {
     imgsrc: travel8,
-    head: 'A weekend to Dharjeeling',
+    head: 'A weekend to Puri',
     para: '3 Nights',
     url: '/packageInfo'
     },
