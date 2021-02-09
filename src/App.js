@@ -18,7 +18,7 @@ function App() {
   return (
     <>
       <Switch>
-        <Route path="/" exact component={PackageCard} />
+        <Route path="/" exact component={MainBlog} />
         <Route path="/packageInfo" exact component={PackageInfo} />
         <Route path="/eachVisaInfo" exact component={EachVisaInfo} />
       </Switch>
